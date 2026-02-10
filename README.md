@@ -1,4 +1,4 @@
-# Snapchat Data Cleaning
+# Snapchat Memory Unfucker
 
 Snapchat has recently imposed a limit on the amount of memories you can store in their app (previously unlimited) – the limit is 5 GB, and most of us who've had the app for 10+ years have a shit ton more than that.
 
