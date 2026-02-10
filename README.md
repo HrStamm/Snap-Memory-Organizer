@@ -1,6 +1,12 @@
 # Snapchat Data Cleaning
 
-> Pipeline til at downloade, udpakke og sortere dine Snapchat memories.
+Snapchat has recently imposed a limit on the amount of memories you can store in their app (previously unlimited) – the limit is 5 GB, and most of us who've had the app for 10+ years have a shit ton more than that.
+
+But hey, Snapchat is being nice! They've made a download feature so we can save our digital memories. The problem? They apparently designed the whole thing while they were on drugs.
+
+The data is such a pain in the ass to download and such a hassle to deal with. Furthermore, it's completely unstructured with insanely long numeric filenames and doesn't come sorted in any way whatsoever. To top it off, for pictures and videos where you've written text on them, it comes in a zip file where the text layer and the original picture or video are separated into different files.
+
+All of this, of course, because they'd rather have you pay for their monthly subscription. But fuck that – I made a solution to all of this.
 
 ## Workflow
 
