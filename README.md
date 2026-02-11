@@ -40,6 +40,31 @@ python scripts/3_sort.py       # Quick
 
 Your sorted memories are now in `data/sorted/` – organized by year and month, with actual readable filenames like `15-01-2024 (14.32).jpg` instead of UUID garbage.
 
+## ⚠️ Complete Beginner? Start Here
+
+**New to coding?** No worries. Here's what you need:
+
+1. **Install Python** – [Download Python 3.11+](https://www.python.org/downloads/)
+2. **Install VS Code** – [Download VS Code](https://code.visualstudio.com/)
+3. **Install Git** – [Download Git](https://git-scm.com/downloads)
+4. **Install uv** – Open terminal and run:
+   ```bash
+   curl -LsSf https://astral.sh/uv/install.sh | sh
+   ```
+
+5. **Clone this project**:
+   ```bash
+   git clone https://github.com/HrStamm/Snap-Memory-Organizer.git
+   cd Snap-Memory-Organizer
+   ```
+
+6. **Set up the environment**:
+   ```bash
+   uv sync
+   ```
+
+7. **Follow "How to Unfuck Your Memories"** above ↑
+
 ## Folder Structure
 
 ```
