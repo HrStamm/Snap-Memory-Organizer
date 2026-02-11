@@ -10,47 +10,35 @@ All of this, of course, because they'd rather have you pay for their monthly sub
 
 ## How to Unfuck Your Memories
 
-### Step 1: Get your shitty HTML file from Snapchat
+### Step 0: Get your data from Snapchat
 
-First, you need to request your data from Snapchat. They'll email you a link to download it – it's a massive ZIP file with all your memories and a `memories_history.html` file that actually has the timestamps and metadata.
+1. Open Snapchat → Settings → **My Data**
+2. Request your **Memories** (just select Memories, not everything)
+3. Wait for Snapchat to email you a download link (can take a few hours to a day)
+4. Download the ZIP file and extract it
+5. Find the `memories_history.html` file and drop it in the `input/` folder
 
-Once you have it, drop the `memories_history.html` file into the `input/` folder.
+### The 3-Step Pipeline
 
-### Step 2: Download everything (grab a coffee... or three)
+| Step | Script | What it does |
+|------|--------|--------------|
+| **1** | `1_download.py` | Downloads all your memories from Snapchat's servers. **Takes hours** – Snapchat's direct download link is garbage (skips files, downloads duplicates). This script ensures everything is downloaded correctly with progress tracking, so you can pause and resume anytime. |
+| **2** | `2_unzip.py` | Handles Snapchat's ZIP bullshit. Extracts the actual photo/video from those ZIPs, deletes the text layer, and renames everything to match the format of non-zipped files. **Takes seconds to minutes.** |
+| **3** | `3_sort.py` | Maps each memory to its correct timestamp using the HTML file, organizes them into year/month folders (2016/01-January/, 2017/05-May/, etc.), and renames files to the exact date and time (down to the minute). **Quick.** |
 
-```bash
-python scripts/1_download.py
-```
-
-This script goes through the HTML file and downloads every single memory from Snapchat's servers. It has a 3-second delay between each download to avoid getting rate-limited.
-
-**Fair warning:** If you have 1000+ memories, this is gonna take a while. Like, hours. Maybe half a day if you've been using Snapchat since 2015. The script will give you an estimate, but basically – start it before bed or before you leave for work.
-
-The good news? It saves progress as it goes, so if your internet dies or your computer crashes, just run it again and it'll continue where it left off. You can even close your laptop (just don't close the terminal).
-
-### Step 3: Unpack the ZIP hell
+### Running the scripts
 
 ```bash
-python scripts/2_unzip.py
+python scripts/1_download.py   # Go make coffee. Or sleep. This takes forever.
+python scripts/2_unzip.py      # Quick
+python scripts/3_sort.py       # Quick
 ```
 
-This one's quick – usually done in seconds to a few minutes. It goes through all those stupid ZIP files (the ones with text overlays), extracts the actual photo/video, and throws away the overlay layer. Because who the fuck needs that separated?
-
-### Step 4: Make it actually usable
-
-```bash
-python scripts/3_sort.py
-```
-
-Also quick. This script renames all your files from `7a8f3b2e-9c4d-11eb-a8b3-0242ac130003.jpg` to something you can actually read like `15-01-2024 (14.32).jpg`, and organizes them into year/month folders.
-
-Now you can actually browse your memories like a normal human being.
+**About Step 1:** If you have 1000+ memories, leave your computer running overnight. The script saves progress continuously, so if it crashes or you need to shut down, just restart it and it picks up where it left off. Unlike Snapchat's download, which starts from scratch every time.
 
 ### Done!
 
-Your sorted, renamed, and organized memories are now in `data/sorted/` – arranged by year and month, with proper filenames that tell you when they were taken.
-
-No more UUID bullshit. No more scattered files. Just your memories, the way they should've been from the start.
+Your sorted memories are now in `data/sorted/` – organized by year and month, with actual readable filenames like `15-01-2024 (14.32).jpg` instead of UUID garbage.
 
 ## Folder Structure
 
@@ -68,4 +56,3 @@ No more UUID bullshit. No more scattered files. Just your memories, the way they
     └── 3_sort.py
 ```
 
-_Detailed README coming soon._
