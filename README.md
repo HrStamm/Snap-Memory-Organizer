@@ -1,5 +1,9 @@
 # Snapchat Memory Unfucker
 
+![Python Version](https://img.shields.io/badge/python-3.8+-blue.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+![Stars](https://img.shields.io/github/stars/HrStamm/Snap-Memory-Organizer?style=social)
+
 Snapchat has recently imposed a limit on the amount of memories you can store in their app (previously unlimited), the limit is 5 GB, and most of us who've had the app for 10+ years have a shit ton more than that.
 
 But hey, Snapchat is being nice! They've made a download feature so we can save our digital memories. The problem? They apparently designed the whole thing while they were on drugs.
