@@ -3,6 +3,7 @@
 ![Python Version](https://img.shields.io/badge/python-3.8+-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 ![Stars](https://img.shields.io/github/stars/HrStamm/Snap-Memory-Organizer?style=social)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 
 Snapchat has recently imposed a limit on the amount of memories you can store in their app (previously unlimited), the limit is 5 GB, and most of us who've had the app for 10+ years have a shit ton more than that.
 
