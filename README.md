@@ -20,16 +20,18 @@ All of this, of course, because they'd rather have you pay for their monthly sub
 
 <img src="assets/before_chaos.png" alt="Before View" width="100%" style="border-radius: 10px; border: 1px solid #333;">
 
-<p align="center">
-  <img src="assets/arrow.png" alt="Transformation" width="80">
-</p>
-
 <br>
+
+<p align="center">
+  <img src="assets/arrow.png" alt="Transformation" width="100">
+</p>
 
 ### 🟢 Using this script
 *Structured folders (Year/Month) with files renamed to their exact date and time.*
 
 <img src="assets/after_organized.png" alt="After View" width="100%" style="border-radius: 10px; border: 1px solid #333;">
+
+---
 
 ## How to Unfuck Your Memories
 
