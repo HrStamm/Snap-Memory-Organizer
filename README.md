@@ -5,6 +5,35 @@
 ![Stars](https://img.shields.io/github/stars/HrStamm/Snap-Memory-Organizer?style=social)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 
+## 📸 Transformation: Before & After
+
+See the difference this tool makes. It turns the flat list of nonsense filenames into a structured, chronological archive.
+
+<table>
+  <tr>
+    <th width="50%" style="text-align:center">Before: The "My Data" Export</th>
+    <th width="50%" style="text-align:center">After: Organized Archive</th>
+  </tr>
+  <tr>
+    <td><img src="assets/before_chaos.png" alt="Before: Unsorted files" width="100%"></td>
+    <td><img src="assets/after_organized.png" alt="After: Sorted folders" width="100%"></td>
+  </tr>
+  <tr>
+    <td>
+      ❌ Random UUID filenames<br>
+      ❌ No sorting<br>
+      ❌ Separated text overlays (ZIPs)<br>
+      ❌ Lost timestamps (file creation date = download date)
+    </td>
+    <td>
+      ✅ Year / Month folder structure<br>
+      ✅ Filenames reflect exact Date & Time<br>
+      ✅ Overlays merged automatically<br>
+      ✅ Clean, browseable archive
+    </td>
+  </tr>
+</table>
+
 Snapchat has recently imposed a limit on the amount of memories you can store in their app (previously unlimited), the limit is 5 GB, and most of us who've had the app for 10+ years have a shit ton more than that.
 
 But hey, Snapchat is being nice! They've made a download feature so we can save our digital memories. The problem? They apparently designed the whole thing while they were on drugs.
