@@ -15,32 +15,19 @@ All of this, of course, because they'd rather have you pay for their monthly sub
 
 ## 📸 Transformation: Before & After
 
-See the difference this tool makes. It turns the flat list of nonsense filenames into a structured, chronological archive.
+### 🔴 Using SnapChats built in way: 
+*Chaotic, unsorted files with random UUID filenames and separated zip files.*
 
-<table>
-  <tr>
-    <th width="50%" style="text-align:center">Downloading from Snapchat:</th>
-    <th width="50%" style="text-align:center">Using my script:</th>
-  </tr>
-  <tr>
-    <td><img src="assets/before_chaos.png" alt="Before: Unsorted files" width="100%"></td>
-    <td><img src="assets/after_organized.png" alt="After: Sorted folders" width="100%"></td>
-  </tr>
-  <tr>
-    <td>
-      ❌ Random UUID filenames<br>
-      ❌ No sorting<br>
-      ❌ Separated text overlays (ZIPs)<br>
-      ❌ Lost timestamps (file creation date = download date)
-    </td>
-    <td>
-      ✅ Year / Month folder structure<br>
-      ✅ Filenames reflect exact Date & Time<br>
-      ✅ Overlays handled automatically<br>
-      ✅ Clean, browseable archive
-    </td>
-  </tr>
-</table>
+<img src="assets/before_chaos.png" alt="Before View" width="100%" style="border-radius: 10px; border: 1px solid #333;">
+
+<br>
+<p align="center" style="font-size: 40px">⬇️ ⬇️ ⬇️</p>
+<br>
+
+### 🟢 Using this script
+*Structured folders (Year/Month) with files renamed to their exact date and time.*
+
+<img src="assets/after_organized.png" alt="After View" width="100%" style="border-radius: 10px; border: 1px solid #333;">
 
 ## How to Unfuck Your Memories
 
